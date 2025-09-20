@@ -15,6 +15,7 @@
                 descuento = precio * 0.2;
         else:
             print("\nCÓDIGO INVÁLIDO.");
+            descuento = 0
 
         monto_i = precio - descuento
 
