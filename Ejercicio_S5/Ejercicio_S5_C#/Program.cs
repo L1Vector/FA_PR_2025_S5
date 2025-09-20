@@ -90,6 +90,7 @@ namespace Ejercicio_S5_C_
                 Console.WriteLine($"\nRaíz cuadrada de nota: {Math.Sqrt(nota):F1}");
                 Console.WriteLine("Potencia elevada al cubo: " + Math.Pow(nota, 3));
             }
+            else { Console.WriteLine("\n RANGO DE NOTA INVÁLIDO"); }
         }
     }
 }
