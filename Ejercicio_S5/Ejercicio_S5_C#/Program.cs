@@ -10,7 +10,7 @@ namespace Ejercicio_S5_C_
     {
         static void Main(string[] args)
         {
-            ejer2();
+            ejer1();
             Console.ReadKey();
         }
         static void ejer1()

@@ -1,0 +1,7 @@
+C:\Users\lvasq\OneDrive - Universidad Privada del Norte\Ing Sistemas\Funciones algoritmicas\Practica_S5\Ejercicio_S5\Ejercicio_S5_C#\bin\Debug\Ejercicio_S5_C#.exe.config
+C:\Users\lvasq\OneDrive - Universidad Privada del Norte\Ing Sistemas\Funciones algoritmicas\Practica_S5\Ejercicio_S5\Ejercicio_S5_C#\bin\Debug\Ejercicio_S5_C#.exe
+C:\Users\lvasq\OneDrive - Universidad Privada del Norte\Ing Sistemas\Funciones algoritmicas\Practica_S5\Ejercicio_S5\Ejercicio_S5_C#\bin\Debug\Ejercicio_S5_C#.pdb
+C:\Users\lvasq\OneDrive - Universidad Privada del Norte\Ing Sistemas\Funciones algoritmicas\Practica_S5\Ejercicio_S5\Ejercicio_S5_C#\obj\Debug\Ejercicio_S5_C#.csproj.AssemblyReference.cache
+C:\Users\lvasq\OneDrive - Universidad Privada del Norte\Ing Sistemas\Funciones algoritmicas\Practica_S5\Ejercicio_S5\Ejercicio_S5_C#\obj\Debug\Ejercicio_S5_C#.csproj.CoreCompileInputs.cache
+C:\Users\lvasq\OneDrive - Universidad Privada del Norte\Ing Sistemas\Funciones algoritmicas\Practica_S5\Ejercicio_S5\Ejercicio_S5_C#\obj\Debug\Ejercicio_S5_C#.exe
+C:\Users\lvasq\OneDrive - Universidad Privada del Norte\Ing Sistemas\Funciones algoritmicas\Practica_S5\Ejercicio_S5\Ejercicio_S5_C#\obj\Debug\Ejercicio_S5_C#.pdb
