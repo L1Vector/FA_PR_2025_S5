@@ -10,7 +10,7 @@ namespace Ejercicio_S5_C_
     {
         static void Main(string[] args)
         {
-            ejer1();
+            ejer2();
             Console.ReadKey();
         }
         static void ejer1()
@@ -59,6 +59,37 @@ namespace Ejercicio_S5_C_
                 Console.WriteLine("PRECIO INVÁLIDO");
             }
         }
+        static void ejer2()
+        {
+            Console.Write("Ingrese una nota (0-20): ");
+            int nota = int.Parse(Console.ReadLine());
 
+            if (nota >= 0 && nota <= 20)
+            {
+                switch (nota)
+                {
+                    case int n when (nota >= 0 && nota <= 10):
+                        Console.WriteLine("\nDesaprobado.");
+                        break;
+                    case int n when (nota >= 11 && nota <= 13):
+                        Console.WriteLine("\nRegular.");
+                        break;
+                    case int n when (nota >= 14 && nota <= 17):
+                        Console.WriteLine("\nBueno.");
+                        break;
+                    default:
+                        Console.WriteLine("\nExcelente.");
+                        break;
+                }
+                if (nota >= 14 && nota % 2 == 0)
+                    Console.WriteLine("\nBuen desempeño");
+
+                if (nota < 11 || nota % 2 != 0)
+                    Console.WriteLine("\nNecesita reforzar");
+
+                Console.WriteLine($"\nRaíz cuadrada de nota: {Math.Sqrt(nota):F1}");
+                Console.WriteLine("Potencia elevada al cubo: " + Math.Pow(nota, 3));
+            }
+        }
     }
 }
