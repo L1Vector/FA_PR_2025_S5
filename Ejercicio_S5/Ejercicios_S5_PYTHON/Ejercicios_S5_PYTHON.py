@@ -21,6 +21,8 @@
 
         if(precio >500):
             adicional = monto_i *0.05
+        else:
+            adicional = 0
 
         pago_f = monto_i - adicional
 
