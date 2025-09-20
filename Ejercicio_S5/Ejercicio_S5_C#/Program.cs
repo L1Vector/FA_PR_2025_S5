@@ -73,23 +73,23 @@ namespace Ejercicio_S5_C_
                 switch (nota)
                 {
                     case int n when (nota >= 0 && nota <= 10):
-                        Console.WriteLine("\nDesaprobado.");
+                        Console.WriteLine("\nClasificación: Desaprobado.");
                         break;
                     case int n when (nota >= 11 && nota <= 13):
-                        Console.WriteLine("\nRegular.");
+                        Console.WriteLine("\nClasificación: Regular.");
                         break;
                     case int n when (nota >= 14 && nota <= 17):
-                        Console.WriteLine("\nBueno.");
+                        Console.WriteLine("\nClasificación: Bueno.");
                         break;
                     default:
-                        Console.WriteLine("\nExcelente.");
+                        Console.WriteLine("\nClasificación: Excelente.");
                         break;
                 }
                 if (nota >= 14 && nota % 2 == 0)
-                    Console.WriteLine("\nBuen desempeño con nota par");
+                    Console.WriteLine("\nCondición: Buen desempeño con nota par");
 
                 if (nota < 11 || nota % 2 != 0)
-                    Console.WriteLine("\nNecesita reforzar");
+                    Console.WriteLine("\nCondición: Necesita reforzar");
 
                 Console.WriteLine($"\nRaíz cuadrada de nota: {Math.Sqrt(nota):F1}");
                 Console.WriteLine("Potencia elevada al cubo: " + Math.Pow(nota, 3));

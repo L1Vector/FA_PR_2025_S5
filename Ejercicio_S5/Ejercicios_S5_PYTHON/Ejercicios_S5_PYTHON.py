@@ -38,24 +38,24 @@ def ejer2():
     if (nota >= 0 and nota <= 20):
         match nota:
             case n if 0 <= n <= 10:
-                print("\nDesaprobado")
+                print("\nClasificación: Desaprobado")
             case n if 11 <= n <= 13:
-                print("\nRegular")
+                print("\nClasificación: Regular")
             case n if 14 <= n <= 17:
-                print("\nBueno")
+                print("\nClasificación: Bueno")
             case _:
-                print("\nExcelente")
+                print("\nClasificación: Excelente")
         
         if (nota >= 14 and nota % 2 == 0):
-            print("\nBuen desempeño con nota par")
+            print("\nCondición: Buen desempeño con nota par")
         
         if (nota < 11 or nota % 2 != 0):
-            print("\nNecesita reforzar")
+            print("\nCondición: Necesita reforzar")
 
         print(f"\nRaíz cuadrada de nota: {math.sqrt(nota):.1f}")
         print(f"Potencia elevada al cubo: ", math.pow(nota, 3))
 
     else:
-       print("\n RANGO DE NOTA INVÁLIDO")
+       print("\nRANGO DE NOTA INVÁLIDO")
 
-ejer1()
+ejer2()
