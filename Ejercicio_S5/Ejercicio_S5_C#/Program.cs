@@ -82,7 +82,7 @@ namespace Ejercicio_S5_C_
                         break;
                 }
                 if (nota >= 14 && nota % 2 == 0)
-                    Console.WriteLine("\nBuen desempeño");
+                    Console.WriteLine("\nBuen desempeño con nota par");
 
                 if (nota < 11 || nota % 2 != 0)
                     Console.WriteLine("\nNecesita reforzar");

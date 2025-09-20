@@ -25,6 +25,28 @@
 
         print(f"\nMonto final (con descuento): {pago_f:.2f}")
     else:
-        print("PRECIO INVÁLIDO")
+        print("\nPRECIO INVÁLIDO")
+import math
+def ejer2():
+    nota = int(input("Ingrese una nota (0-20): "))
 
-ejer1()
+    if (nota >= 0 and nota <= 20):
+        match nota:
+            case n if 0 <= n <= 10:
+                print("\nDesaprobado")
+            case n if 11 <= n <= 13:
+                print("\nRegular")
+            case n if 14 <= n <= 17:
+                print("\nBueno")
+            case _:
+                print("\nExcelente")
+        if (nota >= 14 and nota % 2 == 0):
+            print("\nBuen desempeño con nota par")
+        if (nota < 11 or nota % 2 != 0):
+            print("\nNecesita reforzar")
+
+        print(f"\nRaíz cuadrada de nota: {math.sqrt(nota):.1f}")
+        print(f"Potencia elevada al cubo: ", math.pow(nota, 3))
+    else:
+       print("\n RANGO DE NOTA INVÁLIDO")
+ejer2()
