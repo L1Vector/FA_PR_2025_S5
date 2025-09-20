@@ -15,7 +15,7 @@ namespace Ejercicio_S5_C_
         }
         static void ejer1()
         {
-            double precio, código, descuento = 0, pago_f, monto_i, adicional = 0;
+            double precio, descuento = 0, pago_f, monto_i, adicional = 0;
 
             //Solicitamos al usuario precio y código de descuento
             Console.WriteLine("*********BIENVENIDO USUARIO*********");
@@ -24,7 +24,7 @@ namespace Ejercicio_S5_C_
 
             Console.WriteLine("\nIngrese su código de descuento:\n[1] Estudiante \n[2] Empleado \n[3] Cliente Frecuente ");
             Console.Write("\nOpción: ");
-            código = double.Parse(Console.ReadLine());
+            int código = int.Parse(Console.ReadLine());
 
             //Inicio de Condicional Doble (precio y código)
             if (precio >= 0)

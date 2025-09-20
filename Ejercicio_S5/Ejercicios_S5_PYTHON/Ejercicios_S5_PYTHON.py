@@ -3,7 +3,7 @@
     precio = float(input("\nIngrese el precio unitario del producto: "))
     
     print("\nIngrese su código de descuento:\n[1] Estudiante \n[2] Empleado \n[3] Cliente Frecuente ")
-    código = float(input("\nOpción: "))
+    código = int(input("\nOpción: "))
 
     if (precio >= 0):
         if (código >= 1 and código <= 3):
@@ -55,4 +55,4 @@ def ejer2():
     else:
        print("\n RANGO DE NOTA INVÁLIDO")
 
-ejer2()
+ejer1()
