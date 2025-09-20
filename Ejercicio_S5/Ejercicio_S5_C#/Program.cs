@@ -26,7 +26,7 @@ namespace Ejercicio_S5_C_
             Console.Write("\nOpción: ");
             código = double.Parse(Console.ReadLine());
 
-            //Inicio de Condicional Doble (precio) y Múltiple (código)
+            //Inicio de Condicional Doble (precio y código)
             if (precio >= 0)
             {
                 if (código >= 1 && código <= 3)
@@ -60,7 +60,7 @@ namespace Ejercicio_S5_C_
             }
             else
             {
-                Console.WriteLine("PRECIO INVÁLIDO");
+                Console.WriteLine("\nPRECIO INVÁLIDO");
             }
         }
         static void ejer2()
